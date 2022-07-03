@@ -23,5 +23,5 @@ export default function Home() {
 export function useDocumentTitle(title="Welcome to the home page!") {
   useEffect(() => {
     document.title = title;
-  }, []);
+  }, [title]);
 }
